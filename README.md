@@ -4,7 +4,7 @@
 ### status: ***updating***
 ### author: ***Sahil Rajwar***
 
-## what is the need of this?
+## why main.exe?
 
 ### the main aim to build this was to merge command line interface with some extra functionality that we do in our day to day life such as browsing the internet. I already specified some url links which are given below.
 
