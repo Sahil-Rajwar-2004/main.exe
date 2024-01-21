@@ -1,5 +1,5 @@
 # CLI ***main.exe***
-### version: ***0.1***
+### version: ***0.2***
 ### created: ***22nd-01-2024***
 ### status: ***updating***
 ### author: ***Sahil Rajwar***
