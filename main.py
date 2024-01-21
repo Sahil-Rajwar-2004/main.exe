@@ -3,7 +3,7 @@ import webbrowser
 
 about = """
 CLI main.exe
-version: 0.2
+version: 0.3
 homepage: https://www.github.com/Sahil-Rajwar-2004/main.exe/
 created: 22-01-2024
 status: updating
@@ -31,6 +31,7 @@ INSTAGRAM = "https://instagram.com/"
 GITHUB = "https://github.com/"
 YOUTUBE = "https://youtube.com/"
 REDDIT = "https://www.reddit.com/"
+X = "https://www.x.com/"
 
 def show_dirs():
     tag = None
@@ -122,6 +123,8 @@ while RUNNING:
                 webbrowser.open(YOUTUBE)
             elif name.lower() == "reddit":
                 webbrowser.open(REDDIT)
+            elif name.lower() == "x" or name.lower() == "twitter":
+                webbrowser.open(X)
             else:
                 print("unknown request!")
 
