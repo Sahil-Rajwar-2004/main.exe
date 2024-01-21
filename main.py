@@ -3,7 +3,7 @@ import webbrowser
 
 about = """
 CLI main.exe
-version: 0.1
+version: 0.2
 homepage: https://www.github.com/Sahil-Rajwar-2004/main.exe/
 created: 22-01-2024
 status: updating
@@ -55,6 +55,9 @@ while RUNNING:
 
         elif cmd == "about":
             print(about)
+
+        elif cmd == "":
+            pass
 
         elif cmd.startswith("cd "):
             new_dir = cmd.split(" ",1)[1]
