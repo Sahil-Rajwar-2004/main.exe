@@ -123,8 +123,8 @@ while RUNNING:
                 print("unknown request!")
 
         elif cmd.startswith("browse "):
-            url = cmd.split(" ",1)[1]
-            webbrowser.open(url)
+            search_query = cmd.split(" ",1)[1]
+            webbrowser.open(f"https://www.google.com/search?q={search_query}")
 
         else:
             print("invalid command!")
